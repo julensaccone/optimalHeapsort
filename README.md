@@ -31,3 +31,6 @@ To compile on macOS use:
 ```
 clang++ -O0 -fstandalone-debug -std=c++20  heapsortMigliorato_v7.cpp -o heapsortMigliorato_v7
 ```
+
+Since Optimal Heapsort has been proved as a better version of the classic Heapsort, by using it in the main In-Place Sortig algorithm this gets more efficient than it was before.
+A next step in this research would be to figured out why on the integer version and in the double version, without the timeWaster() function, the Optimal Heapsort has higher execution time even if it's more efficient in terms of numeber of comparison and element moves.
